@@ -1,6 +1,7 @@
 # Pelican
 develop_server.sh
 output/*
+settings.py
 local_settings.py
 Makefile
 
@@ -40,3 +41,6 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# development server
+*.pid
