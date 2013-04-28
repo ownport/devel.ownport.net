@@ -18,7 +18,7 @@ Tags: server,development,python,windows,web.py,web
 
 _/index.py_ - для удобства в корне расположен только файл index.py. Он является основным каркасом для приложений
 
-    ::::python
+    :::python
     import web
     urls = (
         # application
