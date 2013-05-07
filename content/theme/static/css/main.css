@@ -1,0 +1,176 @@
+/*
+    Theme for http://devel.ownport.net
+	Modified to be more simple
+
+    based on standard theme `Smashing HTML5`, version 1.0
+	Date: July 2009 
+	License: MIT <http://opensource.org/licenses/MIT>
+	Licensed by: Smashing Media GmbH <http://www.smashingmagazine.com/>
+	Original author: Enrique Ramírez <http://enrique-ramirez.com/>
+	
+*/
+
+/* Imports */
+@import url("pygment.css");
+
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(http://fonts.googleapis.com/css?family=Consolas);
+
+header, section, footer, nav, article, figure {
+	display: block;
+}
+
+body {
+    background: #ffffff;
+    color: #000000;
+    font-family: Ubuntu, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.body {
+    clear: both; 
+    margin: 0 auto;
+    width: 800px;
+}
+
+header#banner {
+    box-shadow: 0 0 40px 5px #999;
+    -moz-box-shadow: 0 0 40px 5px #999;
+    -webkit-box-shadow: 0 0 40px 5px #999;
+}
+
+header#banner.body h1 {
+    margin-top: 0;
+    font-size: 2em;
+    float: left;
+}
+
+header#banner.body ul {
+    float: right;
+}
+
+header#banner li {
+    display: inline;
+}
+
+header#banner nav a:link, #banner nav a:visited {
+    display: inline-block;
+	height: 25px;
+	padding: 3px 1.5em;
+	text-decoration: none;
+}
+
+ol#posts-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: #888a85;
+    text-decoration: none;
+}
+
+h1 { font-size: 1.6em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.1em; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #000000;
+	line-height: 1.1;
+}
+
+hr { border: 2px solid #EEEEEE; }
+
+footer.post-info {
+    font-size: 11px;
+    float:right;
+    /* margin: 5px;  */
+    margin-left: 20px;
+    padding: 5px;   
+    width: 200px; 
+}
+
+footer.post-info p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+}
+
+footer#contentinfo {
+    text-align: center;
+    font-size: 9px;
+}
+
+p.paginator {
+    text-align: center;
+}
+
+div.highlight, code {
+    font-family: Consolas, "Ubuntu Mono", “Courier New”, Courier, monospace;
+    font-size: 11px;
+}
+
+/*  Extras */
+
+#extras {margin: 0 auto 3em auto; overflow: hidden;}
+
+#extras ul {list-style: none; margin: 0;}
+#extras li {border-bottom: 1px solid #fff;}
+
+/* Blogroll */
+#extras .blogroll {
+    float: left;
+    width: 500px;
+}
+
+#extras .blogroll ul {
+    padding-left: 0;
+}
+
+/* Social */
+#extras .social {
+    float: right;
+    width: 200px;
+}
+
+#extras .social ul {
+    padding-left: 0;
+}
+
+#extras div[class='social'] a {
+		background-repeat: no-repeat;
+		padding-left: 25px;
+}
+	
+/* Icons */
+.social a[href*='about.me'] {background-image: url('../images/icons/aboutme.png');}
+.social a[href*='bitbucket.org'] {background-image: url('../images/icons/bitbucket.png');}
+.social a[href*='delicious.com'] {background-image: url('../images/icons/delicious.png');}
+.social a[href*='digg.com'] {background-image: url('../images/icons/digg.png');}
+.social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
+.social a[href*='gitorious.org'] {background-image: url('../images/icons/gitorious.png');}
+.social a[href*='github.com'],
+.social a[href*='git.io'] {background-image: url('../images/icons/github.png');}
+.social a[href*='gittip.com'] {background-image: url('../images/icons/gittip.png');}
+.social a[href*='plus.google.com'] {background-image: url('../images/icons/google-plus.png');}
+.social a[href*='groups.google.com'] {background-image: url('../images/icons/google-groups.png');}
+.social a[href*='news.ycombinator.com'],
+.social a[href*='hackernewsers.com'] {background-image: url('../images/icons/hackernews.png');}
+.social a[href*='last.fm'], .social a[href*='lastfm.'] {background-image: url('../images/icons/lastfm.png');}
+.social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
+.social a[href*='reddit.com'] {background-image: url('../images/icons/reddit.png');}
+.social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
+.social a[href*='slideshare.net'] {background-image: url('../images/icons/slideshare.png');}
+.social a[href*='speakerdeck.com'] {background-image: url('../images/icons/speakerdeck.png');}
+.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
+.social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
+.social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
+
