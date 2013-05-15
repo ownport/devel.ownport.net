@@ -15,7 +15,12 @@ DEFAULT_PAGINATION = 5
 
 #THEME = "iris"
 
-FEED_RSS = 'feeds/all.rss.xml'
+# FEEDS
+FEED_MAX_ITEMS = 10
+FEED_ATOM = 'feeds/atom.xml'
+FEED_ALL_ATOM = None
+FEED_RSS = None
+FEED_ALL_RSS = None
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
 LINKS = (('XXXXX XXXX', 'http://YYYYYYYYYYY.ZZZ'),)
