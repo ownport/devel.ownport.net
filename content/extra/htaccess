@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+
+ErrorDocument 404 /pages/404-page-not-found.html
+ErrorDocument 500 /pages/500-error.html
+
+
