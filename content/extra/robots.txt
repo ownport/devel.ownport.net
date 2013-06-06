@@ -3,3 +3,4 @@ Disallow: /theme/
 Disallow: /tag/
 Disallow: /uploads/
 
+Sitemap: http://d.ownport.net/sitemap.xml
