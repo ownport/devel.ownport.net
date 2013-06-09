@@ -14,6 +14,16 @@
       {% include 'article_infos.html' %}
       {{ article.content }}
     </div><!-- /.entry-content -->
+    
+    {% if article.related_posts %}
+    <b>Статьи на близкую тематику</b>
+    <ul>
+    {% for related_post in article.related_posts %}
+        <li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    
     {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
     <div class="comments">
       <h2>Comments !</h2>
