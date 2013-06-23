@@ -1,12 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
 <section id="content" class="body">
-<h1>Archives for {{ SITENAME }}</h1>
+<h1>Архив постов</h1>
 
 <dl>
 {% for article in dates %}
-    <dt>{{ article.locale_date }}</dt>
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+    <dt><b><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></b></dt>
+    <dd> 
+        Дата публикации: {{ article.locale_date }}
+        Теги: {% for tag in article.tags %}
+            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>,
+        {% endfor %} 
+    </dd>
+    
 {% endfor %}
 </dl>
 </section>
