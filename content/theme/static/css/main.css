@@ -113,7 +113,7 @@ p.paginator {
     text-align: center;
 }
 
-div.highlight, code {
+div.highlight, div.codehilite, code {
     font-family: Consolas, "Ubuntu Mono", “Courier New”, Courier, monospace;
     font-size: 11px;
 }
