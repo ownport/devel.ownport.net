@@ -122,9 +122,14 @@ p.paginator {
     text-align: center;
 }
 
-div.highlight, div.codehilite, code {
+div.highlight, div.codehilite {
     font-family: Consolas, "Ubuntu Mono", “Courier New”, Courier, monospace;
     font-size: 11px;
+}
+
+code {
+    font-family: Consolas, "Ubuntu Mono", “Courier New”, Courier, monospace;
+    font-size: 13px;
 }
 
 /*  Extras */
